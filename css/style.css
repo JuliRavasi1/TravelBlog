@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../image/plane.jpg);
+    background-size: contain;
+    object-fit: fill;
+    height: 250vh;
+    width: 100%;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 10%;
+    color: #DCE4F2;
+    text-align: center;
+    padding: 10px;
+}
+
+h1{
+    padding-bottom: 20px;
+}
+
+nav ul li{
+    display: inline;
+    padding: 15px;
+    font-size: 20px;
+}
+
+li:hover{
+    color: #B3DAF2;
+    cursor: pointer;
+}
+
+main{
+    height: 200vh;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info{
+    font-size: 30px;
+    font-family: serif;
+    color: #0D4373;
+    text-shadow: none;
+    padding-top: 28%;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+main a{
+    color: #000;
+    font-size: 22px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #0D4373;
+    color: #DCE4F2;
+    padding: 8px;
+    border-radius: 15px;
+    margin-bottom: 35px;
+}
+
+main a:hover{
+    background-color: #DCE4F2;
+    color: #0D4373;
+}
+
+.second{
+    clip-path: polygon(0 12%, 100% 0, 100% 100%, 0 100%, 0 35%);
+    background-color:#DCE4F2;
+    height: 125vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second h2{
+    font-size: 30px;
+    color: #0D4373;
+}
+
+.myinfo{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.myinfo img{
+    height: 500px;
+    width: auto;
+    padding-left: 10%;
+    padding-top: 5%;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.493));
+}
+
+.myinfo p{
+    font-size: 20px;
+    padding-top: 5%;
+    width: 35%;
+    padding-right: 10%;
+    text-align: justify;
+    color: #165F8C;
+    text-transform: none;
+    font-weight: normal;
+}
+
+footer{
+    background-image: url(../image/footer.jpg);
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navfooter{
+    font-size: 22px;
+    color: #165F8C;
+    text-align: justify;
+    padding-left: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navfooter ul li{
+    list-style: none;
+}
+
+.redes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20%;
+    column-gap: 10%;
+    font-size: 32px;
+    color: #165F8C;
+}
+
+.redes i:hover{ 
+    cursor: pointer;
+    color: #B3DAF2;
+}
